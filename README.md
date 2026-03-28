@@ -30,7 +30,7 @@ Sprint-wise execution with dates is documented in 🔗 **AGILE.md**.
 ---
 
 ## 🔗 Project Structure Overview
-
+```
 Java-Batch-final-project/
 │
 ├── Herokuapp/milestorefour/ 🔗 Main automation framework
@@ -49,7 +49,7 @@ Java-Batch-final-project/
 ├── AGILE.md
 ├── LICENSE
 └── README.md
-
+```
 
 ---
 
@@ -63,9 +63,11 @@ Java-Batch-final-project/
 ### 🔗 Run Test Suite
 Navigate to the main project folder:
 
-```bash
+bash
+```
 cd Herokuapp/milestorefour
 mvn clean test
+```
 🔗 Configuration
 Test configuration is maintained in:
 🔗 resources/config.properties
